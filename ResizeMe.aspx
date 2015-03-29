@@ -191,10 +191,12 @@
                         using (FileStream file = File.OpenWrite(fileName))
                         {
                             stream.WriteTo(file);
-                            if (fileInfo != default(FileInfo))
-                            {
-                                fileInfo.LastWriteTime = lastModified;
-                            }
+                        }
+
+                        // Set the modified timestamp for cache checking
+                        if (fileInfo != default(FileInfo))
+                        {
+                            fileInfo.LastWriteTime = lastModified;
                         }
                     }
                 }
