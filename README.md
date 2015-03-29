@@ -14,10 +14,12 @@ A simple image resizer with caching, suitable for an ASP.NET based website.
 
 ## Examples
 
-### Resize by height
-https://resizeme.azurewebsites.net/ResizeMe.aspx?path=samples/test.jpg&height=800
+Here are some examples of common usage scenarios:
 
 ### Resize by width
+https://resizeme.azurewebsites.net/ResizeMe.aspx?path=samples/test.jpg&width=800
+
+### Resize by height
 https://resizeme.azurewebsites.net/ResizeMe.aspx?path=samples/test.jpg&height=200
 
 ### Resize by height and width
