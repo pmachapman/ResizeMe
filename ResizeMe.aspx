@@ -139,14 +139,17 @@
                             }
                             else
                             {
-                                ratio = 1;
+                                ratio = 0;
                             }
 
-                            // Use the ratio
-                            height = Convert.ToInt32((double)bitmap.Height * ratio);
-                            width = Convert.ToInt32((double)bitmap.Width * ratio);
-                            
-                            // Clean up from zero ratio
+                            // Use the ratio if non-zero
+                            if (ratio != 0)
+                            {
+                                height = Convert.ToInt32((double)bitmap.Height * ratio);
+                                width = Convert.ToInt32((double)bitmap.Width * ratio);
+                            }
+
+                            // Clean up invalid heights and widths
                             if (height <= 0)
                             {
                                 height = 1;

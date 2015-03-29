@@ -42,6 +42,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="ResizeMe.aspx" />
+    <Content Include="Samples\test.jpg" />
+    <Content Include="Samples\test.png" />
+    <Content Include="Samples\test.tiff" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -49,6 +52,7 @@
   <ItemGroup>
     <Content Include="web.config" />
     <Content Include="ResizeMe.snk" />
+    <None Include="Properties\PublishProfiles\resizeme.pubxml" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>

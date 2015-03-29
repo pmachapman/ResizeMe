@@ -15,13 +15,13 @@ A simple image resizer with caching, suitable for an ASP.NET based website.
 ## Examples
 
 ### Resize by height
-/ResizeMe.aspx?path=images/test.jpg&height=40
+https://resizeme.azurewebsites.net/ResizeMe.aspx?path=samples/test.jpg&height=800
 
 ### Resize by width
-/ResizeMe.aspx?path=images/test.jpg&height=60
+https://resizeme.azurewebsites.net/ResizeMe.aspx?path=samples/test.jpg&height=200
 
 ### Resize by height and width
-/ResizeMe.aspx?path=images/test.png&height=50&width=50
+https://resizeme.azurewebsites.net/ResizeMe.aspx?path=samples/test.png&height=100&width=130
 
 ### Convert to JPEG
-/ResizeMe.aspx?path=images/test.bmp
+https://resizeme.azurewebsites.net/ResizeMe.aspx?path=samples/test.tiff
